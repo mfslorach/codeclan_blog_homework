@@ -1,0 +1,163 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0px;
+}
+
+main {
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+header {
+    background-color: #4da2cc;
+    margin: 0px;
+    padding: 50px;
+}
+
+header h1 {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+header a:link {
+    text-decoration: none;
+    color: white
+}
+
+header a:hover {
+    color: lightgray;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 9px;
+    text-decoration: none;
+}
+
+.login {
+    padding-top: 25px;
+    padding-bottom: 22px;
+}
+
+#login_title {
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 15px;
+}
+
+.categories {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0px
+}
+
+.categories ul li {
+    list-style: none;
+    padding-top: 2.8px;
+    padding-bottom: 2.8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.categories a:link {
+    text-decoration: none;
+    color: gray
+}
+
+.categories a:hover {
+    text-decoration: none;
+    color: black
+}
+
+.main-article {
+    margin: 65px 60px;
+}
+
+.comments {
+    margin: 0px 60px;
+    margin-bottom: 60px;
+}
+
+#main-article-title {
+    margin-bottom: 35px;
+}
+
+#main_article_para {
+    text-align: justify;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    background-color: #e9e9e9;
+    padding: 15px;
+}
+
+.user-image {
+    height: 80px;
+}
+
+.latest img {
+    height: 200px;
+}
+
+img {
+    display: block;
+}
+
+.article_1,
+.article_2,
+.article_3 {
+    margin-top: 50px;
+}
+
+#latest_title {
+    margin-bottom: 35px;
+}
+
+.comment-box {
+    height: 80px;
+    width: 100%;
+}
+
+.submit-button {
+    float: right;
+    margin-top: 10px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#hr-1 {
+    margin-top: 80px;
+    margin-bottom: -40px;
+}
+
+.comments-username {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    background-color: #4da2cc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer p {
+    color: white
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeClan Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>CodeClan News</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="login">
+        <h2 id="login_title">Login</h2>
+
+        <form>
+          <label for="email">Email:</label>
+          <br />
+          <input type="text" id="email" name="email"/>
+          <br /><br />
+          <label for="password">Password:</label>
+          <br />
+          <input type="password" id="password" name="password"/>
+          <br /><br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section class="categories">
+        <h2 id="categories_title">Categories</h2>
+        <ul>
+          <li><a href="#">Latest</a></li>
+          <li><a href="#">Local</a></li>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Sports</a></li>
+        </ul>
+      </section>
+
+      <section class="latest">
+        <h2 id="latest_title">Latest</h2>
+        <h3>Breaking News</h3>
+
+        <article class="article_1">
+          <img
+            src="/images/DIGITAL_WELLBEING_NOV21_2-pg944pfnyeezmy1v1lvfvk9k5kge1ttymm4mlyps0u.jpg"
+            alt="codeclad student working on laptop"
+          />
+          <h4>Story Headline</h4>
+          <p>
+            This is the first line of the article. The user would be able to
+            click on the preview to read more...
+          </p>
+        </article>
+
+        <article class="article_2">
+          <img
+            src="/images/ywc-q72xi3u1f7sld7qod70vyl0uq1ajbyqupj9ag4i5hi.jpg"
+            alt="happy codeclan students"
+          />
+          <h4>Story Headline</h4>
+          <p>
+            This is the first line of the article. The user would be able to
+            click on the preview to read more...
+          </p>
+        </article>
+
+        <article class="article_3">
+          <img
+            src="/images/data-skills-jobs-q4nzu7x139y8wo4rovq5qxkt4ayqbp1nn9sr2mawcm.jpg"
+            alt="happy codeclan students"
+          />
+          <h4>Story Headline</h4>
+          <p>
+            This is the first line of the article. The user would be able to
+            click on the preview to read more...
+          </p>
+        </article>
+      </section>
+
+      <section class="main-article">
+        <article>
+          <h2 id="main-article-title">Main Article Title</h2>
+          <p><em>Author Name</em></p>
+          <p id="main_article_para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ultricies integer quis auctor elit sed. Lacinia at quis risus sed
+            vulputate odio. Quam pellentesque nec nam aliquam sem et tortor
+            consequat. Nascetur ridiculus mus mauris vitae ultricies. Vitae
+            aliquet nec ullamcorper sit amet risus nullam eget. Risus in
+            hendrerit gravida rutrum quisque non tellus. Suspendisse sed nisi
+            lacus sed viverra tellus in. Pharetra magna ac placerat vestibulum
+            lectus mauris ultrices. Aenean pharetra magna ac placerat vestibulum
+            lectus mauris.
+          </p>
+        </article>
+        <form>
+          <label for="text"><h2>Comments<h2></h2></label>
+          <input class="comment-box" type="text" id="text" name="text" />
+          <br />
+          <input class="submit-button" type="submit" value="submit" />
+        </form>
+        <hr id="hr-1" />
+      </section>
+
+      <section class="comments">
+        <img
+          class="user-image"
+          src="/images/empty use.webp"
+          alt="username image"
+        />
+        <p class="comments-username">Username</p>
+        <p>This was interesting. Thanks.</p>
+        <hr />
+        <img
+          class="user-image"
+          src="/images/empty use.webp"
+          alt="username image"
+        />
+        <p class="comments-username">Username</p>
+        <p>This was interesting. Thanks.</p>
+        <hr />
+        <img
+          class="user-image"
+          src="/images/empty use.webp"
+          alt="username image"
+        />
+        <p class="comments-username">Username</p>
+        <p>Thanks. I hate it.</p>
+        <hr />
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy CodeClan News 2023</p>
+    </footer>
+  </body>
+</html>
