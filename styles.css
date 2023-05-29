@@ -9,6 +9,18 @@ main {
     margin-right: 50px
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #codeclan-logo {
+    height: 50px;
+    float: right;
+    margin-top: 12px;
+  }
+
 header {
     background-color: #4da2cc;
     margin: 0px;
